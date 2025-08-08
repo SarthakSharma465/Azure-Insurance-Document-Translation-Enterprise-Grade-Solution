@@ -166,10 +166,23 @@ The pipeline supports **non-prod** and **prod environments** using modular block
 
 ## 🧪 Future Enhancements
 
-* Add support for **bulk translation**
-* Translation preview card with status polling
-* Direct SharePoint download link in cards
-* Multi-language fallback handling
+Add bulk document support
+
+Build retry logic for partial failures
+
+Support multiple language targets
+
+Add SharePoint download link in Adaptive Cards
+
+Use a Custom Connector for Azure Translator to:
+
+Standardize API authentication
+
+Abstract repetitive REST logic into reusable actions
+
+Improve maintainability and avoid HTTP block duplication in Power Automate
+
+Implementing a Custom Connector for Azure Translation will simplify flow logic, allow schema control over inputs/outputs, and enable secure reuse across environments without re-authentication or redundant expressions.
 
 ---
 
