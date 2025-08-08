@@ -51,7 +51,7 @@ The pipeline uses Copilot Studio to push uploaded files into SharePoint, trigger
 
 ### 🔁 Technical Process Diagram
 
-![Technical Process Diagram](.Technical%20Process%20Diagram.jpg)
+![Technical Process Diagram](./Technical%20Process%20Diagram.jpg)
 
 The pipeline supports **non-prod** and **prod environments** using modular blocks:
 
