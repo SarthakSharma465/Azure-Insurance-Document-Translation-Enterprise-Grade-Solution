@@ -45,13 +45,13 @@ This project rearchitects the pipeline for **scalability**, **control**, and **T
 
 ### 🔗 Platform Integration Architecture
 
-![Architecture Diagram](./Aventum%20Translate%20-%20Platform%20Integration%20Architecture%20Diagram.jpg)
+![Architecture Diagram](./Platform%20Integration%20Architecture%20Diagram.jpg)
 
 The pipeline uses Copilot Studio to push uploaded files into SharePoint, triggering Power Automate flows that interact with Azure Blob Storage and Azure Translator.
 
 ### 🔁 Technical Process Diagram
 
-![Technical Process Diagram](./Aventum%20Translate%20-%20Technical%20Process%20Diagram_V3.0.jpg)
+![Technical Process Diagram](.Technical%20Process%20Diagram.jpg)
 
 The pipeline supports **non-prod** and **prod environments** using modular blocks:
 
